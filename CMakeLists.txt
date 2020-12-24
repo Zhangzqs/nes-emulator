@@ -3,4 +3,9 @@ project(nes-emulator)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(nes-emulator main.cpp)
+add_executable(nes-emulator
+        Bus.h
+        Bus.cpp
+        CPU.h
+        CPU.cpp
+        main.cpp)
